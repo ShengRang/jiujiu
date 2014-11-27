@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>青悠</Machine>
+    <WindowsUser>彦杰</WindowsUser>
+    <TargetPlatformIdentifier>Windows Phone</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>4457ab0b-1f86-494d-b9cb-884c6fb591bd</PackageIdentityName>
+    <IntermediateOutputPath>F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\obj\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Bin\Release\JiujiuXiaohantu.dll">
+      <PackagePath>JiujiuXiaohantu.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\BadgeLogo.png">
+      <PackagePath>Assets\BadgeLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\SquareTile150x150.png">
+      <PackagePath>Assets\SquareTile150x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\SquareTile71x71.png">
+      <PackagePath>Assets\SquareTile71x71.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\Tiles\drxy.png">
+      <PackagePath>Assets\Tiles\drxy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\Tiles\lengnuan.png">
+      <PackagePath>Assets\Tiles\lengnuan.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\Tiles\title.png">
+      <PackagePath>Assets\Tiles\title.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\WideLogo.png">
+      <PackagePath>Assets\WideLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\chui\0.png">
+      <PackagePath>Assets\zi\chui\0.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\chui\1.png">
+      <PackagePath>Assets\zi\chui\1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\chui\2.png">
+      <PackagePath>Assets\zi\chui\2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\chui\3.png">
+      <PackagePath>Assets\zi\chui\3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\chui\4.png">
+      <PackagePath>Assets\zi\chui\4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\chui\5.png">
+      <PackagePath>Assets\zi\chui\5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\chui\6.png">
+      <PackagePath>Assets\zi\chui\6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\chui\7.png">
+      <PackagePath>Assets\zi\chui\7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\chui\8.png">
+      <PackagePath>Assets\zi\chui\8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\chui\chui.png">
+      <PackagePath>Assets\zi\chui\chui.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\chun\0.png">
+      <PackagePath>Assets\zi\chun\0.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\chun\1.png">
+      <PackagePath>Assets\zi\chun\1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\chun\2.png">
+      <PackagePath>Assets\zi\chun\2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\chun\3.png">
+      <PackagePath>Assets\zi\chun\3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\chun\4.png">
+      <PackagePath>Assets\zi\chun\4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\chun\5.png">
+      <PackagePath>Assets\zi\chun\5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\chun\6.png">
+      <PackagePath>Assets\zi\chun\6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\chun\7.png">
+      <PackagePath>Assets\zi\chun\7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\chun\8.png">
+      <PackagePath>Assets\zi\chun\8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\chun\chun.png">
+      <PackagePath>Assets\zi\chun\chun.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\dai\0.png">
+      <PackagePath>Assets\zi\dai\0.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\dai\1.png">
+      <PackagePath>Assets\zi\dai\1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\dai\2.png">
+      <PackagePath>Assets\zi\dai\2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\dai\3.png">
+      <PackagePath>Assets\zi\dai\3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\dai\4.png">
+      <PackagePath>Assets\zi\dai\4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\dai\5.png">
+      <PackagePath>Assets\zi\dai\5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\dai\6.png">
+      <PackagePath>Assets\zi\dai\6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\dai\7.png">
+      <PackagePath>Assets\zi\dai\7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\dai\8.png">
+      <PackagePath>Assets\zi\dai\8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\dai\dai.png">
+      <PackagePath>Assets\zi\dai\dai.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\feng\0.png">
+      <PackagePath>Assets\zi\feng\0.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\feng\1.png">
+      <PackagePath>Assets\zi\feng\1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\feng\2.png">
+      <PackagePath>Assets\zi\feng\2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\feng\3.png">
+      <PackagePath>Assets\zi\feng\3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\feng\4.png">
+      <PackagePath>Assets\zi\feng\4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\feng\5.png">
+      <PackagePath>Assets\zi\feng\5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\feng\6.png">
+      <PackagePath>Assets\zi\feng\6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\feng\7.png">
+      <PackagePath>Assets\zi\feng\7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\feng\8.png">
+      <PackagePath>Assets\zi\feng\8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\feng\feng.png">
+      <PackagePath>Assets\zi\feng\feng.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\liu\0.png">
+      <PackagePath>Assets\zi\liu\0.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\liu\1.png">
+      <PackagePath>Assets\zi\liu\1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\liu\2.png">
+      <PackagePath>Assets\zi\liu\2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\liu\3.png">
+      <PackagePath>Assets\zi\liu\3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\liu\4.png">
+      <PackagePath>Assets\zi\liu\4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\liu\5.png">
+      <PackagePath>Assets\zi\liu\5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\liu\6.png">
+      <PackagePath>Assets\zi\liu\6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\liu\7.png">
+      <PackagePath>Assets\zi\liu\7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\liu\8.png">
+      <PackagePath>Assets\zi\liu\8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\liu\liu.png">
+      <PackagePath>Assets\zi\liu\liu.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\qian\0.png">
+      <PackagePath>Assets\zi\qian\0.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\qian\1.png">
+      <PackagePath>Assets\zi\qian\1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\qian\2.png">
+      <PackagePath>Assets\zi\qian\2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\qian\3.png">
+      <PackagePath>Assets\zi\qian\3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\qian\4.png">
+      <PackagePath>Assets\zi\qian\4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\qian\5.png">
+      <PackagePath>Assets\zi\qian\5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\qian\6.png">
+      <PackagePath>Assets\zi\qian\6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\qian\7.png">
+      <PackagePath>Assets\zi\qian\7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\qian\8.png">
+      <PackagePath>Assets\zi\qian\8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\ting\0.png">
+      <PackagePath>Assets\zi\ting\0.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\ting\1.png">
+      <PackagePath>Assets\zi\ting\1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\ting\2.png">
+      <PackagePath>Assets\zi\ting\2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\ting\3.png">
+      <PackagePath>Assets\zi\ting\3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\ting\4.png">
+      <PackagePath>Assets\zi\ting\4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\ting\5.png">
+      <PackagePath>Assets\zi\ting\5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\ting\6.png">
+      <PackagePath>Assets\zi\ting\6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\ting\7.png">
+      <PackagePath>Assets\zi\ting\7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\ting\8.png">
+      <PackagePath>Assets\zi\ting\8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\zhen\0.png">
+      <PackagePath>Assets\zi\zhen\0.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\zhen\1.png">
+      <PackagePath>Assets\zi\zhen\1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\zhen\2.png">
+      <PackagePath>Assets\zi\zhen\2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\zhen\3.png">
+      <PackagePath>Assets\zi\zhen\3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\zhen\4.png">
+      <PackagePath>Assets\zi\zhen\4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\zhen\5.png">
+      <PackagePath>Assets\zi\zhen\5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\zhen\6.png">
+      <PackagePath>Assets\zi\zhen\6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\zhen\7.png">
+      <PackagePath>Assets\zi\zhen\7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\zhen\8.png">
+      <PackagePath>Assets\zi\zhen\8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\zhen\zhen.png">
+      <PackagePath>Assets\zi\zhen\zhen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\zhong\0.png">
+      <PackagePath>Assets\zi\zhong\0.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\zhong\1.png">
+      <PackagePath>Assets\zi\zhong\1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\zhong\2.png">
+      <PackagePath>Assets\zi\zhong\2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\zhong\3.png">
+      <PackagePath>Assets\zi\zhong\3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\zhong\4.png">
+      <PackagePath>Assets\zi\zhong\4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\zhong\5.png">
+      <PackagePath>Assets\zi\zhong\5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\zhong\6.png">
+      <PackagePath>Assets\zi\zhong\6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\zhong\7.png">
+      <PackagePath>Assets\zi\zhong\7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\zhong\8.png">
+      <PackagePath>Assets\zi\zhong\8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\zi\zhong\chong.png">
+      <PackagePath>Assets\zi\zhong\chong.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\xyj500X500.PNG">
+      <PackagePath>Assets\xyj500X500.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\150X150.PNG">
+      <PackagePath>Assets\150X150.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\310X150.PNG">
+      <PackagePath>Assets\310X150.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\71X71.PNG">
+      <PackagePath>Assets\71X71.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\AlignmentGrid.png">
+      <PackagePath>Assets\AlignmentGrid.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\ApplicationIcon.png">
+      <PackagePath>Assets\ApplicationIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\Tiles\FlipCycleTileLarge.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\Tiles\FlipCycleTileMedium.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileMedium.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\Tiles\FlipCycleTileSmall.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\Tiles\IconicTileMediumLarge.png">
+      <PackagePath>Assets\Tiles\IconicTileMediumLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\Tiles\IconicTileSmall.png">
+      <PackagePath>Assets\Tiles\IconicTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\SplashScreenImage.jpg">
+      <PackagePath>SplashScreenImage.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
