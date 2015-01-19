@@ -9,6 +9,7 @@ using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using System.Threading.Tasks;
 using System.Windows.Media.Imaging;
+using System.Windows.Media;
 
 namespace JiujiuXiaohantu
 {
@@ -60,7 +61,66 @@ namespace JiujiuXiaohantu
             await tskCalcDays;
             if (DateHelper.IsInWinter(dt))
             {//正值冬天
-                tbDz.Text = "正是冬天第" + tskCalcDays.Result.ToString() + "天";
+                int days = tskCalcDays.Result;
+                String[] str = new String[] {"一","二", "三", "四", "五", "六", "七", "八", "九"};
+                tbDz.Text = "冬至起第" + (days+1).ToString() + "天, 正值"+str[days/9]+"九第"+(days%9+1).ToString()+"天";
+
+                LinearGradientBrush brush = new LinearGradientBrush();
+                brush.StartPoint = new Point(0, 0);
+                brush.EndPoint = new Point(1, 1);
+                GradientStop myGs = new GradientStop();
+                Color myCol = Color.FromArgb(255, 238, 0, 249);
+                myGs.Color = myCol;
+                myGs.Offset = 0;
+                brush.GradientStops.Add(myGs);
+                myCol = Color.FromArgb(255, 0, 128, 255);
+                myGs = new GradientStop();
+                myGs.Color = myCol;
+                myGs.Offset = 1;
+                brush.GradientStops.Add(myGs);
+                //brd1.BorderBrush = brush;
+                int whichNine = days/9+1;
+                if(whichNine == 1)
+                {
+                    brd1.BorderBrush = brush;
+                }
+                else if(whichNine == 2)
+                {
+                    brd2.BorderBrush = brush;
+                }
+                else if(whichNine ==3)
+                {
+                    brd3.BorderBrush = brush;
+                }
+                else if (whichNine == 4)
+                {
+                    brd4.BorderBrush = brush;
+                }
+                else if (whichNine == 5)
+                {
+                    brd5.BorderBrush = brush;
+                }
+                else if (whichNine == 6)
+                {
+                    brd6.BorderBrush = brush;
+                }
+                else if (whichNine == 7)
+                {
+                    brd7.BorderBrush = brush;
+                }
+                else if (whichNine == 8)
+                {
+                    brd8.BorderBrush = brush;
+                }
+                else if (whichNine == 9)
+                {
+                    brd9.BorderBrush = brush;
+                }
+
+
+                //这个功能以后在推出把，换个颜色显示当前哪个9.
+
+                //brd1.BorderBrush = null;
             }
             else
             {//冬天之外，之后应该完善一下，如果接近冬天了，就说还差。。就冬天了。
@@ -480,6 +540,12 @@ namespace JiujiuXiaohantu
         {
             AboutPage.type = 2;
             NavigationService.Navigate(new Uri("/AboutPage.xaml?type=2", UriKind.Relative));
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            AboutPage.type = 3;
+            NavigationService.Navigate(new Uri("/AboutPage.xaml?type=3", UriKind.Relative));
         }
     }
 }

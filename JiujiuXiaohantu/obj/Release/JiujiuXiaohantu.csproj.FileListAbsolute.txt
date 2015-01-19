@@ -38,5 +38,3 @@ F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\obj\Release\MultipleQualifiersPerDim
 F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\obj\Release\ProjectArchitectures.txt
 F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\obj\Release\MDILProjectFiles.xml
 F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\obj\Release\XapCacheFile.xml
-F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Bin\Release\JiujiuXiaohantu.dll.CodeAnalysisLog.xml
-F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Bin\Release\JiujiuXiaohantu.dll.lastcodeanalysissucceeded

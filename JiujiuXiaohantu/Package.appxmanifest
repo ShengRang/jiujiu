@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
-  <Identity Name="2368test.154585A13C8A1" Publisher="CN=9E08D031-6023-4F2B-9622-0F1BD48181F3" Version="1.0.0.0" />
+  <Identity Name="2368test.154585A13C8A1" Publisher="CN=9E08D031-6023-4F2B-9622-0F1BD48181F3" Version="1.0.0.2" />
   <mp:PhoneIdentity PhoneProductId="4457ab0b-1f86-494d-b9cb-884c6fb591bd" PhonePublisherId="730b6903-4235-4838-8a13-6c73363273a0" />
   <Properties>
     <DisplayName>九九消寒图</DisplayName>

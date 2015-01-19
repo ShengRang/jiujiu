@@ -57,7 +57,7 @@
                 <Grid Name="gridGraph">
                     <StackPanel Name="Graph" Margin="0,-60,-30,0" Orientation="Vertical" VerticalAlignment="Top">
                         <StackPanel HorizontalAlignment="Left" Orientation="Horizontal">
-                            <Border Name="brd6" CornerRadius="15" BorderThickness="2" Height="120" Width="120" Margin="12,0,0,0">
+                            <Border Name="brd7" CornerRadius="15" BorderThickness="2" Height="120" Width="120" Margin="12,0,0,0">
                                 <Border.BorderBrush>
                                     <LinearGradientBrush EndPoint="0,0" StartPoint="1,1">
                                         <GradientStop Color="Black"/>
@@ -78,7 +78,7 @@
                                     </Grid>
                                 </Grid>
                             </Border>
-                            <Border BorderThickness="2" CornerRadius="15" Height="120" Width="120" Margin="12,0,0,0">
+                            <Border Name="brd4" BorderThickness="2" CornerRadius="15" Height="120" Width="120" Margin="12,0,0,0">
                                 <Border.BorderBrush>
                                     <LinearGradientBrush EndPoint="0,0" StartPoint="1,1">
                                         <GradientStop Color="Black" Offset="0"/>
@@ -97,7 +97,7 @@
                                     <Image Name="liu8" Source="Assets\zi\liu\8.png"/>
                                 </Grid>
                             </Border>
-                            <Border CornerRadius="15" BorderThickness="2" Height="120" Width="120" Margin="12,0,0,0">
+                            <Border Name="brd1" CornerRadius="15" BorderThickness="2" Height="120" Width="120" Margin="12,0,0,0">
                                 <Border.BorderBrush>
                                     <LinearGradientBrush EndPoint="0,0" StartPoint="1,1">
                                         <GradientStop Color="Black" Offset="0"/>
@@ -119,7 +119,7 @@
 
                         </StackPanel>
                         <StackPanel HorizontalAlignment="Left" Orientation="Horizontal" Margin="0,12,0,0">
-                            <Border CornerRadius="15" BorderThickness="2" Height="120" Width="120" Margin="12,0,0,0">
+                            <Border Name="brd8" CornerRadius="15" BorderThickness="2" Height="120" Width="120" Margin="12,0,0,0">
                                 <Border.BorderBrush>
                                     <LinearGradientBrush EndPoint="0,0" StartPoint="1,1">
                                         <GradientStop Color="Black" Offset="0"/>
@@ -138,7 +138,7 @@
                                     <Image Name="chun8" Source="Assets\zi\chun\8.png"/>
                                 </Grid>
                             </Border>
-                            <Border CornerRadius="15" BorderThickness="2" Height="120" Width="120" Margin="12,0,0,0">
+                            <Border Name="brd5" CornerRadius="15" BorderThickness="2" Height="120" Width="120" Margin="12,0,0,0">
                                 <Border.BorderBrush>
                                     <LinearGradientBrush EndPoint="0,0" StartPoint="1,1">
                                         <GradientStop Color="Black" Offset="0"/>
@@ -157,7 +157,7 @@
                                     <Image Name="zhen8" Source="Assets\zi\zhen\8.png"/>
                                 </Grid>
                             </Border>
-                            <Border CornerRadius="15" BorderThickness="2" Height="120" Width="120" Margin="12,0,0,0">
+                            <Border Name="brd2" CornerRadius="15" BorderThickness="2" Height="120" Width="120" Margin="12,0,0,0">
                                 <Border.BorderBrush>
                                     <LinearGradientBrush EndPoint="0,0" StartPoint="1,1">
                                         <GradientStop Color="Black" Offset="0"/>
@@ -179,7 +179,7 @@
 
                         </StackPanel>
                         <StackPanel HorizontalAlignment="Left" Orientation="Horizontal" Margin="0,12,0,0">
-                            <Border CornerRadius="15" BorderThickness="2" Height="120" Width="120" Margin="12,0,0,0">
+                            <Border Name="brd9" CornerRadius="15" BorderThickness="2" Height="120" Width="120" Margin="12,0,0,0">
                                 <Border.BorderBrush>
                                     <LinearGradientBrush EndPoint="0,0" StartPoint="1,1">
                                         <GradientStop Color="Black" Offset="0"/>
@@ -198,7 +198,7 @@
                                     <Image Name="feng8" Source="Assets\zi\feng\8.png"/>
                                 </Grid>
                             </Border>
-                            <Border CornerRadius="15" BorderThickness="2" Height="120" Width="120" Margin="12,0,0,0">
+                            <Border Name="brd6" CornerRadius="15" BorderThickness="2" Height="120" Width="120" Margin="12,0,0,0">
                                 <Border.BorderBrush>
                                     <LinearGradientBrush EndPoint="0,0" StartPoint="1,1">
                                         <GradientStop Color="Black" Offset="0"/>
@@ -217,11 +217,11 @@
                                     <Image Name="zhong8" Source="Assets\zi\zhong\8.png"/>
                                 </Grid>
                             </Border>
-                            <Border CornerRadius="15" BorderThickness="2" Height="120" Width="120" Margin="12,0,0,0">
+                            <Border Name="brd3" CornerRadius="15" BorderThickness="2" Height="120" Width="120" Margin="12,0,0,0">
                                 <Border.BorderBrush>
                                     <LinearGradientBrush EndPoint="0,0" StartPoint="1,1">
-                                        <GradientStop Color="#FFEE00F9" Offset="0"/>
-                                        <GradientStop Color="#FF0080FF" Offset="1"/>
+                                        <GradientStop Color="Black" Offset="0"/>
+                                        <GradientStop Color="#FF6A2A74" Offset="1"/>
                                     </LinearGradientBrush>
                                 </Border.BorderBrush>
                                 <Grid>
@@ -252,9 +252,7 @@
                                         <GradientStop Color="#FF8A18B6" Offset="0.577"/>
                                     </LinearGradientBrush>
                                 </Border.BorderBrush>
-                                <Button FontSize="30" FontFamily="/Font/ziti.TTF#方正字迹-佛君包装简体" BorderThickness="0"  Content="签到" Click="Button_Click_1" Foreground="#FF2F284D">
-
-                                </Button>
+                                <Button FontSize="30" FontFamily="/Font/ziti.TTF#方正字迹-佛君包装简体" BorderThickness="0"  Content="签到" Click="Button_Click_1" Foreground="#FF2F284D" />
                             </Border>
                         </StackPanel>
                     </StackPanel>
@@ -290,8 +288,8 @@
                                     <RowDefinition/>
                                     <RowDefinition/>
                                 </Grid.RowDefinitions>
-                                <TextBlock Grid.Row="0" Grid.Column="1" FontFamily="/Font/ziti.TTF#方正字迹-佛君包装简体" FontSize="27" Text="{Binding DateStr}" Foreground="Wheat" />
-                                <TextBlock Grid.Row="1" Grid.Column="1" FontFamily="/Font/ziti.TTF#方正字迹-佛君包装简体" FontSize="54" Text="{Binding Status}" Foreground="Black" TextWrapping="Wrap"  />
+                                <TextBlock Grid.Row="0" Grid.Column="1" FontFamily="/Font/ziti.TTF#方正字迹-佛君包装简体" FontSize="27" Text="{Binding DateStr}" Foreground="#FF4C0376" />
+                                <TextBlock Grid.Row="1" Grid.Column="1" FontFamily="/Font/ziti.TTF#方正字迹-佛君包装简体" FontSize="32" Text="{Binding Status}" Foreground="Black" TextWrapping="Wrap"  />
                             </Grid>
                         </DataTemplate>
                     </phone:LongListSelector.ItemTemplate>
@@ -395,20 +393,21 @@
             </phone:PanoramaItem>-->
 
             <phone:PanoramaItem>
-                <Grid>
+                <Grid Margin="0,-120,0,0">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="83*"/>
                         <RowDefinition Height="177*"/>
                         <RowDefinition Height="157*"/>
-                        <RowDefinition Height="257*"/>
+                        <RowDefinition Height="157*"/>
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="20*"/>
                         <ColumnDefinition Width="317*"/>
                         <ColumnDefinition Width="83*"/>
                     </Grid.ColumnDefinitions>
-                    <Button BorderThickness="0" Grid.Row="1" Grid.Column="1" Content="关于"  Foreground="Black" FontFamily="/Font/ziti.TTF#方正字迹-佛君包装简体" FontSize="54" Click="Button_Click_2"/>
-                    <Button BorderThickness="0" Grid.Row="2" Grid.Column="1" Content="说明"  Foreground="Black" FontFamily="/Font/ziti.TTF#方正字迹-佛君包装简体" FontSize="54" Click="Button_Click_3"/>
+                    <Button  Style="{StaticResource ButtonStyle1}" BorderThickness="0" Grid.Row="1" Grid.Column="1" Content="关于"  Foreground="Black" FontFamily="/Font/ziti.TTF#方正字迹-佛君包装简体" FontSize="54" Click="Button_Click_2"/>
+                    <Button  Style="{StaticResource ButtonStyle1}" BorderThickness="0" Grid.Row="2" Grid.Column="1" Content="说明"  Foreground="Black" FontFamily="/Font/ziti.TTF#方正字迹-佛君包装简体" FontSize="54" Click="Button_Click_3"/>
+                    <Button  Style="{StaticResource ButtonStyle1}" BorderThickness="0" Grid.Row="3" Grid.Column="1" Content="更新说明"  Foreground="Black" FontFamily="/Font/ziti.TTF#方正字迹-佛君包装简体" FontSize="54" Click="Button_Click"/>
                 </Grid>
             </phone:PanoramaItem>
 

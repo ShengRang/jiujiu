@@ -7,7 +7,7 @@
 
     有关程序包清单文件的详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="2368test.154585A13C8A1" Publisher="CN=9E08D031-6023-4F2B-9622-0F1BD48181F3" Version="1.0.0.0" ProcessorArchitecture="neutral" />
+  <Identity Name="2368test.154585A13C8A1" Publisher="CN=9E08D031-6023-4F2B-9622-0F1BD48181F3" Version="1.0.0.2" ProcessorArchitecture="neutral" />
   <mp:PhoneIdentity PhoneProductId="4457ab0b-1f86-494d-b9cb-884c6fb591bd" PhonePublisherId="730b6903-4235-4838-8a13-6c73363273a0" />
   <Properties>
     <DisplayName>九九消寒图</DisplayName>
