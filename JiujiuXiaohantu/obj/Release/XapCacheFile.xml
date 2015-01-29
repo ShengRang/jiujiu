@@ -1,6 +1,6 @@
-﻿<xapCache source="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Bin\Release\JiujiuXiaohantu_Release_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2014/12/24 12:56:47">
-  <file source="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Bin\Release\resources.pri" archivePath="resources.pri" lastWriteTime="2014/12/24 12:56:29" />
-  <file source="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\obj\Release\JiujiuXiaohantu.dll" archivePath="JiujiuXiaohantu.dll" lastWriteTime="2014/12/24 12:56:27" />
+﻿<xapCache source="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Bin\Release\JiujiuXiaohantu_Release_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2015/1/19 13:03:14">
+  <file source="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Bin\Release\resources.pri" archivePath="resources.pri" lastWriteTime="2015/1/19 13:02:54" />
+  <file source="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\obj\Release\JiujiuXiaohantu.dll" archivePath="JiujiuXiaohantu.dll" lastWriteTime="2015/1/19 13:02:51" />
   <file source="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\BadgeLogo.png" archivePath="Assets\BadgeLogo.png" lastWriteTime="2014/8/26 14:08:41" />
   <file source="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\Logo.png" archivePath="Assets\Logo.png" lastWriteTime="2014/8/26 14:08:41" />
   <file source="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Assets\SplashScreen.png" archivePath="Assets\SplashScreen.png" lastWriteTime="2014/8/26 18:52:30" />
@@ -114,6 +114,6 @@
   <file source="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Bin\Release\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="2014/8/26 14:08:43" />
   <file source="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Bin\Release\Font\ziti.TTF" archivePath="Font\ziti.TTF" lastWriteTime="2014/8/26 14:15:31" />
   <file source="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Bin\Release\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2014/8/27 13:26:18" />
-  <file source="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\obj\Release\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="2014/12/24 12:56:31" />
-  <file source="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Bin\Release\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="2014/12/24 12:56:29" />
+  <file source="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\obj\Release\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="2015/1/19 13:02:56" />
+  <file source="F:\C#工程\JiujiuXiaohantu\JiujiuXiaohantu\Bin\Release\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="2015/1/19 13:02:54" />
 </xapCache>
